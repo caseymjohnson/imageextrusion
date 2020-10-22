@@ -21,7 +21,7 @@ for i in range(1,32):
             diff=0
             for k in range(3):
                 diff+=abs(int(base_rgb[k])-int(next_rgb[k]))
-            if diff > 325:
+            if diff > 75:
                 if (i,j) not in touched:
                     base[i][j]=nxt[i][j]
                     touched.add((i,j))
